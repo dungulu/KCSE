@@ -1,0 +1,119 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>TimetableCode</title>
+<script src="https://www.w3schools.com/lib/w3.js"></script>
+</head>
+<style>
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+
+tr:nth-child(even) {
+    background-color: #dddddd;
+}
+</style>
+<body>
+<p>DURATION/PERIOD, DATES AND TIMINGS OF 2017 KCSE EXAMINATION PAPERS</p>
+<p>Search for a exam in the input field:</p>
+
+<p>
+<input oninput="w3.filterHTML('#table', '.row', this.value)" placeholder="Search for exam by name or exam-code.." style="width:40%">
+</p>
+<table id="table">
+<tr>
+<th>Days</th>
+<th>Period</th>
+<th>Item No.</th>
+<th>Paper</th>
+<th>Duration</th>
+</tr>
+<tr class="row">
+<td>JANUARY TO SEPT. 2017</td>
+<td></td>
+<td>1.</td>
+<td>443/3 Agriculture (Project)</td>
+<td>9 months</td>
+</tr>
+<tr class="row">
+<td>MARCH TO SEPT. 2017</td>
+<td></td>
+<td>2.</td>
+<td>451/3 Computer Studies (Project)</td>
+<td>7 months</td>
+</tr>
+<tr class="row">
+<td>MARCH TO MID AUG.
+2017</td>
+<td></td>
+<td>3.</td>
+<td>442/3 Art and Design (Project)</td>
+<td>4½ months</td>
+</tr>
+<tr class="row">
+<td>MAY TO OCTOBER 2017</td>
+<td></td>
+<td>4.</td>
+<td>444/2 Woodwork (Project)</td>
+<td>25 hrs.</td>
+</tr>
+<tr class="row">
+<td>MAY TO OCTOBER 2017</td>
+<td></td>
+<td>5.</td>
+<td>445/2 Metalwork (Project)</td>
+<td>25 hrs.</td>
+</tr>
+<tr class="row" >
+<td>MONDAY 23/10/2017 TO
+FRIDAY 27/10/2017</td>
+<td></td>
+<td>6.</td>
+<td>501/3 French (Oral & Braille)</td>
+<td>15 mins. per candidate</td>
+</tr>
+<tr class="row">
+<td>MONDAY 23/10/2017 TO
+FRIDAY 27/10/2017</td>
+<td></td>
+<td>7.</td>
+<td>502/3 German (Oral)</td>
+<td>15 mins. per candidate</td>
+</tr>
+<tr class="row">
+<td>MONDAY 23/10/2017 TO
+FRIDAY 27/10/2017</td>
+<td></td>
+<td>8.</td>
+<td>503/3 Arabic (Oral)</td>
+<td>15 mins. per candidate</td>
+</tr>
+<tr class="row">
+<td>MONDAY 23/10/2017 TO
+FRIDAY 27/10/2017</td>
+<td></td>
+<td>9.</td>
+<td>504/3 Kenyan Sign Language (Practical Signing Skills)</td>
+<td>15 mins. per candidate</td>
+</tr>
+<tr class="row">
+<td>MONDAY 23/10/2017 TO
+FRIDAY 27/10/2017</td>
+<td></td>
+<td>10.</td>
+<td>511/1 Music (Practical)</td>
+<td>15 mins. per candidate</td>
+</tr>
+
+</table>
+</body>
+</html>
